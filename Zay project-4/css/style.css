@@ -1,0 +1,295 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, .h1, .h2, .h3, .h4, .h5, .h6, .a, .p, .span{
+    font-family: 'poppins' !important;
+}
+.navbar-nav .nav-link{
+   margin-right: 60px;
+   color: black;
+   font-weight: 700;
+}
+.navbar-nav .nav-link:hover{
+    color: #5ea971;
+}
+.navbar .navbar-expand-lg{
+    background-color: white;
+} 
+.text1{
+    top: 25%;
+    position: relative;
+}
+.text1 h2{
+    font-weight: 700;
+}
+.text1 h5{
+    color: #585858;
+    font-weight: 500;
+}
+.box1{
+    margin-bottom: 50px;
+}
+.text1 p{
+    font-size: 15px;
+    padding-right: 900px;
+    line-height: 25px;
+}
+
+.text2{
+    text-align: center;
+    padding-top: 50px;
+}
+.text2 h2{
+   font-weight: 500;
+}
+.text2 p{
+    padding-left: 500px;
+    padding-right: 500px;
+    font-size: 15px;
+}
+.box1{
+    text-align: center;
+}
+.box1 h6{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.box1 .btn{
+    margin-bottom: 30px;
+ 
+}
+.section1 {
+ background-color: #e9edf6;
+}
+
+.text3{
+    text-align: center;
+    padding-top: 50px;
+}
+.text3 h2{
+   font-weight: 500;
+}
+.text3 p{
+    padding-left: 500px;
+    padding-right: 500px;
+    font-size: 15px;
+}
+.box2{
+    background-color: white;
+    width: 86.5%;
+}
+.box2 h5{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.box2 p{
+    font-size: 14px;
+    padding-left: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.contant{
+    margin-bottom: 50px;
+}
+.footer{
+    background-color: #222836;
+}
+.box3{
+    padding-top: 50px;
+}
+.box4 i{
+   font-size: 20px;
+   padding-right: 10px;
+   color: white;
+}
+.box4 span{
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+
+}
+.box5 i{
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+   
+ }
+ .box5 a{
+     font-size: 16px;
+     line-height: 30px;
+     color: white;
+     text-decoration: none;
+  
+ 
+ }
+ .box5{
+    margin-bottom: 50px;
+ }
+ .box5 li{
+
+list-style: none;
+line-height: 35px;
+
+ }
+ .box5 h4 {
+    color: white;
+    font-weight: 600;
+ }
+ ol, ul {
+    padding-left: 0px;
+}
+.box6 i{
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+ }
+ .box6 a{
+     font-size: 16px;
+     line-height: 30px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .box6 h4{
+    color: white;
+    font-weight: 600;
+ }
+ .box6 li{
+list-style: none;
+line-height: 35px;
+ }
+ ol, .ul {
+    padding-left: 0rem;
+}
+.box5 a:hover{
+    color:#5ea971 ;
+}
+.box6 a:hover{
+    color:#5ea971 ;
+}
+.footer1{
+    background-color: #1f232e;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer1 i{
+    padding-right: 10px;
+     
+}
+
+.box7 i{
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+ }
+ .box7 a{
+     font-size: 16px;
+     line-height: 30px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .box7 h4{
+    color: white;
+    font-weight: 600;
+ }
+ .box7 li{
+list-style: none;
+line-height: 35px;
+ }
+ .box7 a:hover{
+    color:#5ea971 ;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+.navbar-nav .nav-link{
+    padding-left: 40px;
+}
+.text1 p{
+    padding-right: 0px;
+}
+.images1{
+    width: 100%;
+}
+.text2 p {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.text3 p {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.contant img{
+    width: 100%;
+}
+.box2 {
+    background-color: white;
+    width: 100%;
+}
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    .text2 p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .text3 p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contant img{
+        width: 100%;
+    }
+    
+    
+}
+@media only screen and (min-width:320px) {
+    .box5 h4{
+      margin-top: 20px;
+    }
+    .box5{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .text1 p{
+        padding-right: 238px;
+    }
+    .box5 h4{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .text1 p{
+        padding-right: 423px;
+    }
+    .box2{
+        width: 86.5%;
+    }
+}
+
+@media only screen and (min-width:1440px){
+    .text1 p{
+        padding-right: 655px;
+    }
+}
+
+
+@media only screen and (min-width:2560px){
+.box2{
+    width: 87%;
+}
+
+}
+

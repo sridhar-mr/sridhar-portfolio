@@ -1,0 +1,481 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, .h1, .h2, .h3, .h4, .h5, .h6, .a, .p, .span{
+    font-family: 'poppins' !important;
+}
+.navbar-expand-lg{
+  background-color: #00aff0;
+}
+
+.icon{
+  text-align: right;
+  padding-top: 15px;
+}
+.icon i{
+  padding-right: 20px;
+  font-size: 20px;
+  color: #ff0000;
+}
+ .navbar-nav .nav-item{
+  font-size: 18px;
+margin-right: 90px;
+}
+.navbar-nav .nav-item1{
+  font-size: 18px;
+  margin-right: 90px;
+
+}
+.navbar-nav .nav-link{
+  color: white;
+font-weight: 600;
+}
+.navbar-nav .nav-link:hover{
+  color: #ff0000; 
+}
+
+ .text1{
+  position: relative;
+  text-align: center;
+  
+  top: 25%;
+ }
+
+.text1 i{
+  font-size: 30px;
+  
+  color: #00aff0;
+  background-color: white;
+
+
+}
+.text1 h1{
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+.text1 p{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+
+}
+.fa-thumbs-up{
+  
+  width: 50px;
+  background-color: white;
+  border-radius: 150px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+.text2 h5{
+color: #27ace4;
+font-weight: 600;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+.text2 h3{
+  font-weight: 700;
+  padding-right: 150px;
+}
+.text2 p{
+  color: #7f7a7a;
+  line-height: 30px;
+}
+.text2 img{
+  margin-bottom: 60px;
+}
+.section1{
+  background-color: #f7f7f7;
+}
+
+.text3 h3{
+  padding-top: 60px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+ .img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box1{
+  background-color: white;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.box1 h6{
+  text-align: center;
+font-weight: 700;
+padding-bottom: 10px;
+}
+
+.box90 {
+  background-color: white;
+  margin-right: 60px;
+  margin-left: 30px;
+}
+.box90 h6{
+  text-align: center;
+font-weight: 700;
+padding-right: 24px;
+padding-left: 24px;
+padding-bottom: 10px;
+}
+.box1 p{
+text-align: center;
+font-size: 15px;
+color:#7f7a7a;
+line-height: 25px;
+}
+
+.box90 p{
+text-align: center;
+font-size: 15px;
+color:#7f7a7a;
+line-height: 25px;
+}
+
+.box1{
+  margin-bottom: 60px;
+}
+.box90 {
+  margin-bottom: 60px;
+}
+.btn1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slider__contents {
+  height: 100%;
+  text-align: left;
+ 
+}
+
+.contant h5{
+  padding-top: 60px;
+  font-weight: 700;
+  padding-bottom: 40px;
+
+
+}
+.slider__contents{
+border: black solid 1px;
+padding-bottom: 40px ;
+}
+.slider__txt {
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'poppins';
+  line-height: 1.7;
+  color: #7f7a7a;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  max-width: 750px;
+}
+quote {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 50px;
+  color: #ec2027;
+  margin-bottom: 0;
+margin-left: 500px;
+
+}
+.slider__caption {
+  font-size: 14px;
+  color: #d73135;
+  text-align: left;
+  font-family: 'poppins';
+  font-weight: bold;
+  padding-left: 30px;
+  
+}
+.box2 img{
+  margin-bottom: 40px;
+}
+.text5 h4{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 700;
+}
+.footer {
+  background-color: #00b4f6;
+  padding-bottom: 40px;
+}
+
+.box3 {
+  padding-top: 40px;
+}
+ .p{
+  font-size: 14px;
+  padding-top: 10px;
+  color: white;
+  line-height: 30px;
+}
+.box3 h5{
+  font-weight: 600;
+}
+.text11 h5{
+  color: black;
+}
+.text11 a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.text11 li{
+  list-style: none;
+  line-height: 40px;
+}
+  
+ .ul {
+  padding-left: 0rem;
+}
+.text12 h5{
+  color: black;
+}
+.text12 a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.text12 li{
+line-height: 40px;
+  list-style: none;
+}
+.fa-square{
+  color: rgb(28, 73, 112);
+  padding-right: 10px;
+
+}
+.fa-square:before {
+  content: "\f0c8";
+  font-size: 12px;
+}
+.a i{
+  color: rgb(28, 73, 112);
+  padding-right: px;
+  font-size: 250x;
+}
+.a span{
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.footer1{
+  background-color: #058ac2;
+}
+.text6 {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+ .fa-copyright{
+  padding-right: 10px;
+ }
+ .text7{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 14px;
+ }
+ .b{
+  margin-bottom: 0px;
+} 
+.box1 a{
+margin-left: 35px;
+}
+.box90 a{
+margin-left: 35px;
+}
+.fixed-top{
+  position: absolute;
+}
+
+
+.text10 li{
+line-height: 40px;
+  list-style: none;
+  color: white;
+  
+}
+
+.text10 i{
+  color: rgb(28, 73, 112);
+  padding-right: 20px;
+}
+
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b";
+  font-size: 30px;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+
+.navbar-nav .nav-item{
+  margin-right: 40px;
+}
+.navbar-nav .nav-item1{
+  margin-right: 40px;
+}
+ .navbar-nav .nav-link{
+  padding-left: 75px;
+}
+.text2 img{
+  width: 100%;
+  
+}
+.slider__contents {
+  margin-bottom: 0px;
+}
+.box42{
+  margin-bottom: 20px;
+}
+.b{
+  text-align: center;
+}
+.box1{
+  margin-left: 20px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width:1024px) and (max-width:1440px){
+  .text2 img {
+    width: 100%;
+  }
+  .box2 img{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width:320px){
+.icon{
+text-align: left;
+}
+.text2 h3 {
+padding-right: 0px;
+}
+.box1 a{
+margin-left: 90px;
+margin-bottom: 20px;
+}
+.box90 a{
+margin-left: 90px;
+margin-bottom: 20px;
+
+}
+quote{
+margin-left: 250px;
+}
+
+}
+@media only screen and (min-width:375px){
+  .box1 a{
+margin-left: 113px;
+   
+}
+.box90 a{
+margin-left: 113px;
+
+
+}         
+}
+
+@media only screen and (min-width:425px){
+  .box1 a{
+margin-left: 135px;
+   
+}
+.box90 a{
+margin-left: 135px;
+
+
+}
+quote{
+margin-left: 300px;
+}
+}
+
+@media only screen and (min-width:768px){
+.icon{
+
+padding-top: 0px;
+}
+
+  .box1 a{
+margin-left: 50px;
+   
+}
+.box1 h6{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.box90 a{
+margin-left: 50px;
+
+
+}  
+quote{
+margin-left: 275px;
+}
+}
+@media only screen and (min-width:1024px){
+  .icon{
+text-align: right;
+padding-top: 15px;
+}
+  .box1 a{
+margin-left: 6px;
+   
+}
+.box90 a{
+margin-left: 6px;
+
+
+} 
+quote{
+margin-left: 370px;
+}
+.box1{
+  margin-left: 20px;
+}
+
+}
+
+@media only screen and (min-width:1440px){
+ .box1 a{
+margin-left: 37px;
+   
+}
+.box90 a{
+margin-left: 37px;
+margin-bottom: 0px;
+} 
+.box1{
+  margin-left: 30px;
+}
+quote{
+margin-left: 500px;
+}
+}

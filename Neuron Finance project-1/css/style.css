@@ -1,0 +1,405 @@
+
+
+body, p, a, h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+p{
+    
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 20px;
+    margin-right: 15px;
+   
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color:#870a00;
+    
+    
+}
+.span1{
+    font-weight: 700;
+    padding-left: 10px;
+    color: #870a00;
+}
+.img54{
+    position: relative;
+}
+.text-centers{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    color: white;
+
+}
+.text-centers h1 {
+    margin-bottom: 30px;
+    top: 20%;
+    text-align: left;
+    padding-right: 800px;
+    
+    font-weight: 600;
+}.text-centers p{
+    margin-bottom: 30px;
+    text-align: left;
+    padding-right: 800px    ;
+}
+.section1{
+    background-color: #f5f6f8;
+   
+}
+.box1, .box2, .box3{
+ width: 33.3%;
+ float: left;
+ margin-bottom: 60px;
+}
+
+.contant h1{
+    text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #870a00;
+
+}
+.contant p{
+    text-align: center;
+padding-bottom: 25px;
+}
+.box1 h4{
+    text-align:center ;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.box1 p{
+    text-align: center;
+    line-height: 29px;
+    padding-left: 5px;
+ 
+   
+}
+.box2 h4{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.box2 p{
+    text-align: center;
+    line-height: 29px;
+    padding-left: 5px;
+}
+.box3 h4{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.box3 p{
+    text-align: center;
+    line-height: 29px;
+    padding-left: 5px;  
+}
+
+.box4, .box5{
+    width: 50%;
+    float: left;
+    
+}
+.box4{
+margin-top: 40px;
+}
+.box4 h1{
+    padding-bottom: 30px;
+    margin-top: 60px; 
+    font-weight: 600;
+}
+.box4 p{
+    text-align: left;
+}
+.section2{
+    background-color: #f5f6f8;
+}
+.contant2{
+    text-align: center;
+    margin-top: 70px;
+}
+.contant2 h1{
+padding-top: 90px;
+padding-bottom: 11px;
+font-weight: bold;
+color: #870a00;
+}
+.contant2 p{
+    padding-bottom: 20px;
+}
+.box6 p{
+    margin-bottom: 60px;
+}
+.footer{
+    background-color: #01043b;
+    color: white;
+    padding-bottom: 60px;
+   
+ 
+}
+
+.box7{
+   padding-top: 60px;
+   list-style-type: none;
+}
+.box7 h4{
+    padding-bottom: 15px;
+ }
+ .box7 p {
+    text-decoration: none;
+    line-height: 30px;
+
+ }
+a.a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 90px;
+ }
+.b{
+    padding-bottom: 5px;
+    list-style-type: none;
+    padding-left: 45px;
+   
+}
+.c{
+    padding-left: 80px;
+}
+
+.box8{
+    padding-top: 60px;
+   
+}
+.box8 h4{
+padding-bottom: 15px;
+}
+.box8 p a{
+    text-decoration: none;
+   list-style-type: none;
+color: white;
+}
+
+.footer1{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+p .fa{
+    padding-right: 10px;
+}
+.box9{
+    padding-top: 60px;
+    line-height: 35px;
+}
+
+
+.box8 .fa{
+    padding-right: 10px;
+}
+.fa-facebook{
+    
+        width: 27px;
+        height: 28px;
+        background-color: white;
+        color: #01043b;
+        border-radius: 20px;
+        
+        
+    }
+
+    .fa-facebook:before {
+        content: "\f09a";
+        position: relative;
+        left: 7px;
+        top: 6px;
+        font-size: 20px;
+    }
+    .fa-instagram{
+    
+        width: 27px;
+        height: 28px;
+        background-color: white;
+        color: #01043b;
+        border-radius: 20px;
+margin-left: 10px;        
+    }
+    .fa-instagram:before {
+        content: "\f16d";
+        position: relative;
+        left: 5px;
+        top: 4px;
+        font-size: 20px;
+        
+    }
+    .fa-twitter{
+    
+        width: 27px;
+        height: 28px;
+        background-color: white;
+        color: #01043b;
+        margin-left: 10px;
+        border-radius: 20px;
+        
+    }
+
+    .fa-twitter:before {
+        content: "\f099";
+        position: relative;
+        left: 5px;
+        top: 4px;
+        font-size: 20px;
+    }
+    .fa-arrow-right{
+        padding-right: 10px;
+    }
+
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    text-transform: capitalize !important;
+    font-weight: 500;
+    
+    
+}
+}
+.r{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+.text-centers h1{
+ padding-right: 0px;
+    font-size: 30px;
+}
+.text-centers p{
+    padding-right: 30px;
+}
+.img1{
+    width: 100%;
+}
+.swiper-slide {
+    width: 100%;
+  }
+.c{
+    padding-left: 0px;
+}
+.d{
+    margin-left: -30px;
+}
+.b{
+    padding-left: 0px;
+}
+}
+
+@media only screen and (min-width:425px){
+    .text-centers h1{
+        padding-right: 30px;
+    }
+    .text-centers p{
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .text-centers h1{
+        padding-right: 300px;
+    }
+    .text-centers p{
+        padding-right: 300px;
+    }
+    .c{
+        padding-left: 50px;
+    }
+    .d{
+        margin-left: 0px;
+    }
+    .b{
+        padding-left: 20px;
+    }
+     
+   
+}
+
+@media only screen and (min-width:1024px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+
+         margin-right: 5px;
+    }
+    .span1{
+        font-size: 16px;
+    }
+    .text-centers h1{
+        padding-right: 500px;
+    }
+    .text-centers p{
+        padding-right: 500px;
+    }
+    .box2 p {
+
+        padding-top: 0px;
+    }
+    .img1{
+        width: 100%;
+    }
+
+    .c{
+        padding-left: 80px;
+    }
+    .d{
+        margin-left: 0px;
+    }
+    .b{
+        padding-left: 45px;
+    }
+     
+}
+@media only screen and (min-width:1440px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+
+         margin-right: 15px;
+    }
+    .span1{
+        font-size: 20px;
+    }
+    .text-centers h1{
+        padding-right: 800px;
+    }
+    .text-centers p{
+        padding-right: 700px;
+    }
+
+}
+
+@media only screen and (min-width:2560px){
+    .text-centers{
+        left: 25%;
+    }
+}

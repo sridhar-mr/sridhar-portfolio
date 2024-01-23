@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+html,body{
+       overflow-x: hidden;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 1;
+}
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-cover{
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(48, 184, 196, 0.7), rgba(122, 194, 146, 0.702));
+    z-index: -99;
+}
+/* HAVBAR */
+.navbar{
+    /* background-color: #FF9209; */
+    /* background-color: lightskyblue; */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 500;
+    
+
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+         /* background: -webkit-linear-gradient( to right,#31B7C2,#7BC393 ); */
+       background: -webkit-linear-gradient(rgb(48, 184, 196),rgb(122, 194, 146));
+         -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.navbar-nav .nav-item .nav-link{
+      margin-left: 20px;
+        color: black;
+   
+}
+
+/* HERO */
+.btn{
+    
+    transition: all 0.5ms,ease;
+
+
+}
+
+.btn-main{
+    background: linear-gradient( to right,#31B7C2,#7BC393 );
+    border-radius: 100px;
+    border: none;
+    
+}
+
+.btn:hover{
+   
+    transform: translateY(-5px);
+}
+
+/* services */
+.section-intro{
+    margin-bottom: 40px;
+}
+
+.section-intro .divider{
+    height: 5px;
+    width: 70px;
+    background: linear-gradient( to right,#31B7C2,#7BC393 );
+margin: 16px auto;
+}
+
+.services-img img{
+    width: 100%;
+}
+.service .services-img{
+    position: relative;
+}
+
+.service .services-img .icon{
+    width: 90px;
+    height: 90px;
+     background: linear-gradient( to right,#31B7C2,#7BC393 );
+     color: white;
+     border-radius: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+         bottom:-45px;
+    left: 50%;
+    transform: translateX(-50px);
+}
+
+.service .services-img .icon i{
+    font-size: 36px;
+}
+
+.services-para{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+   
+}
+
+/* ABOUT */
+
+
+.video-btn{
+    width: 60px;
+    height: 60px;
+     background: linear-gradient( to right,#31B7C2,#7BC393 );
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     border-radius: 100%;
+     text-decoration: none;
+     font-weight: 700;
+
+
+
+}
+
+/* feature */
+
+.feature i{
+      background: -webkit-linear-gradient(rgb(48, 184, 196),rgb(122, 194, 146));
+         -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+.feature p{
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+/* Blog */
+
+
+.review{
+box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.1);
+}
+.review .person{
+    display: flex;
+    align-items: center;
+    border-bottom: 7px soild rgba(0, 0, 0, 0.07);
+
+}
+
+.review .person img{
+width: 100px;
+height: 100px;
+border-radius: 100px;
+
+
+}
+.icon-star{
+    color: orange;
+    font-size: 20px;
+}
+
+/* CONTACT */
+
+form .form-control{
+
+border-radius: 0px;
+background: transparent;
+color: white;
+border-color: rgba(255, 255, 255, 0.7);
+
+}
+form .form-control::placeholder{
+    color: white;
+}
+form input  .form-control{
+    height: 54px;
+    
+}
+
+form .form-control:focus{
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+/* FOOTER */
+
+footer{
+      background: -webkit-linear-gradient(rgb(48, 184, 196),rgb(122, 194, 146));
+   
+}
